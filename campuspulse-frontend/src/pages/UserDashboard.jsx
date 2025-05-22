@@ -2,7 +2,7 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
-const UserDashboard = () => {
+const UserDashboard = () => { 
   const navigate = useNavigate();
   const user = JSON.parse(localStorage.getItem("user"));
 
